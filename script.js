@@ -35,6 +35,12 @@ function buttonOpen(buttonValue) {
     links["Clearwebstats"] = "http://"+domain+".clearwebstats.com/";
     links["Similarweb"] = "https://www.similarweb.com/ru/website/"+domain;
     links["Sitemap"] = "https://"+domain+"/sitemap.xml";
+    links["Builtwith"] = "https://builtwith.com/"+domain;
+    links["W3tech"] = "https://w3techs.com/sites/info/"+domain;
+    links["Hexometer"] = "https://hexometer.com/stack-checker/"+domain;
+    links["Webtechsurvey"] = "https://webtechsurvey.com/website/"+domain;
+    links["Awesometechstack"] = "https://awesometechstack.com/analysis/website/"+domain;
+    links["Wappalyzer"] = "https://www.wappalyzer.com/lookup/"+domain;
 
     window.open(links[buttonValue]);
 }
