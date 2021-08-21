@@ -1,6 +1,7 @@
 function buttonOpen(buttonValue) {
 
     domain = document.getElementById("searchquery").value;
+    ip = domain;
     const links = [];
     links["Centralops"] = "https://centralops.net/co/DomainDossier.aspx?addr=" + domain + "&dom_whois=true&dom_dns=true&net_whois=true";
     links["Dnslytics"] = "https://dnslytics.com/domain/"+domain;
