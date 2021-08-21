@@ -41,6 +41,21 @@ function buttonOpen(buttonValue) {
     links["Webtechsurvey"] = "https://webtechsurvey.com/website/"+domain;
     links["Awesometechstack"] = "https://awesometechstack.com/analysis/website/"+domain;
     links["Wappalyzer"] = "https://www.wappalyzer.com/lookup/"+domain;
+    links["Censysio"] = "https://search.censys.io/hosts/" + ip;
+    links["Shodanio"] = "https://www.shodan.io/host/"+ip;
+    links["Bgphenet"] = "https://bgp.he.net/ip/"+ip;
+    links["Bgptools"] = "https://bgp.tools/prefix/"+ip;
+    links["Spyse"] = "https://spyse.com/target/ip/"+ip;
+    links["Myipws"] = "https://myip.ms/info/whois/"+ip;
+    links["Threatcrowd"] = "https://threatcrowd.org/ip.php?ip="+ip;
+    links["Ipv4info"] = "http://ipv4info.com/ip-address/se279bc/"+ip+".html";
+    links["Grayhatwarfare"] = "https://buckets.grayhatwarfare.com/results/"+ip;
+    links["Maltiverse"] = "https://maltiverse.com/search;query="+ip+";page=1;sort=creation_time_desc";
+    links["Threatminer"] = "https://threatminer.org/host.php?q="+ip;
+    links["Natlasio"] = "https://natlas.io/search?query="+ip;
+    links["Checkhostnet"] = "https://check-host.net/ip-info?host="+ip;
+
+    window.open(links[buttonValue]);
 
     window.open(links[buttonValue]);
 }
