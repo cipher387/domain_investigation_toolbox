@@ -1,8 +1,8 @@
 function buttonOpen(buttonValue) {
 
     domain = document.getElementById("searchquery").value;
-    ip = domain;
     const links = [];
+    ip=domain;
     links["Centralops"] = "https://centralops.net/co/DomainDossier.aspx?addr=" + domain + "&dom_whois=true&dom_dns=true&net_whois=true";
     links["Dnslytics"] = "https://dnslytics.com/domain/"+domain;
     links["Domainbigdata"] = "https://domainbigdata.com/"+domain;
@@ -55,6 +55,8 @@ function buttonOpen(buttonValue) {
     links["Threatminer"] = "https://threatminer.org/host.php?q="+ip;
     links["Natlasio"] = "https://natlas.io/search?query="+ip;
     links["Checkhostnet"] = "https://check-host.net/ip-info?host="+ip;
+    links["Hunterio"] = "https://hunter.io/search/"+domain;
+    links["Analyzeid"] = "https://analyzeid.com/id/"+domain;
 
     window.open(links[buttonValue]);
 
