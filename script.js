@@ -57,6 +57,8 @@ function buttonOpen(buttonValue) {
     links["Checkhostnet"] = "https://check-host.net/ip-info?host="+ip;
     links["Hunterio"] = "https://hunter.io/search/"+domain;
     links["Analyzeid"] = "https://analyzeid.com/id/"+domain;
+    links["Iplocationnet"] = "https://www.iplocation.net/search?q="+ip;
+    links["Ip2location"] = "https://www.ip2location.com/demo/"+ip;
 
     window.open(links[buttonValue]);
 
