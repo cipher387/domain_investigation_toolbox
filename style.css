@@ -31,3 +31,14 @@ button
     text-align: center;
   
 }
+.cipher-387-button {
+    color: #fff;
+    background: red;
+    padding: 3px 7px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-align: center;
+  
+}
