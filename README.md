@@ -1,4 +1,9 @@
-# domain_investigation_toolbox
+<h1>Domain investigation toolbox</h1>
+
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+    <p align="center">
+    
 Enter the domain name once and gather information about it with 33 tools:
 https://cipher387.github.io/domain_investigation_toolbox/
 
