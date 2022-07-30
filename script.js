@@ -3,6 +3,8 @@ function buttonOpen(buttonValue) {
     domain = document.getElementById("searchquery").value;
     const links = [];
     ip=domain;
+    links["IpInvestigation"] = "https://cipher387.github.io/domain_investigation_toolbox/ip.html";
+    links["IpInvestigation"] = "https://cipher387.github.io/domain_investigation_toolbox/";
     links["Centralops"] = "https://centralops.net/co/DomainDossier.aspx?addr=" + domain + "&dom_whois=true&dom_dns=true&net_whois=true";
     links["Dnslytics"] = "https://dnslytics.com/domain/"+domain;
     links["Domainbigdata"] = "https://domainbigdata.com/"+domain;
