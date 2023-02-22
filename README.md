@@ -1,4 +1,4 @@
-<h1>Domain investigation toolbox</h1>
+<h1>Domain Investigation Toolbox</h1>
 
 
 
@@ -13,10 +13,10 @@
    
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcipher387%2Fdomain_investigation_toolbox&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
     
-Enter the domain name once and gather information about it with 33 tools:
+Enter the domain name once and gather information about it with 41 tools (+ 6 useful links):
 https://cipher387.github.io/domain_investigation_toolbox/
 
-Enter the ip adress once and gather information abount it with 33 tools:
+Enter the ip address once and gather information about it with 15 tools:
 
 https://cipher387.github.io/domain_investigation_toolbox/ip.html
 
